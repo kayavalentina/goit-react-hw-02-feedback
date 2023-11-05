@@ -1,8 +1,8 @@
 import React from 'react';
-import { MainWrapper, Button } from './FeedbackMain.styled';
+import { OptionsWrapper, Button } from './FeedbackOptions.styled';
 
-const FeedbackMain = ({ options, onLeaveFeedback }) => (
-  <MainWrapper>
+const FeedbackOptions = ({ options, onLeaveFeedback }) => (
+  <OptionsWrapper>
     {options.map(option => (
       <Button
         key={option}
@@ -12,8 +12,8 @@ const FeedbackMain = ({ options, onLeaveFeedback }) => (
         {option}
       </Button>
     ))}
-  </MainWrapper>
+  </OptionsWrapper>
 );
 
 
-export default FeedbackMain;
+export default FeedbackOptions;

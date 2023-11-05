@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainWrapper = styled.div`
+export const OptionsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -8,11 +8,9 @@ export const MainWrapper = styled.div`
 
 export const Button = styled.button`
   font-size: 14px;
-
   background-color: white;
   border: 1px solid lightgrey;
   border-radius: 5px;
-
   user-select: none;
   cursor: pointer;
 
