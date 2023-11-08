@@ -8,7 +8,7 @@ export const OptionsWrapper = styled.div`
 
 export const Button = styled.button`
   font-size: 14px;
-  background-color:  inherit;
+  background-color: inherit;
   border: 1px solid black;
   border-radius: 5px;
   user-select: none;
